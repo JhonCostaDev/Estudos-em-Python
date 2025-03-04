@@ -1,0 +1,254 @@
+{
+  "gemini_assentment_test": [
+    {
+      "pergunta": "Qual declaração sobre a AWS Global Infrastructure é precisa?",
+      "opcoes": [
+        "A AWS tem um ponto de presença em cada país do mundo.",
+        "A AWS tem várias regiões em cada país do mundo.",
+        "Cada região da AWS tem várias zonas de disponibilidade.",
+        "Cada zona de disponibilidade da AWS tem várias regiões."
+      ],
+      "resposta_correta": "Cada região da AWS tem várias zonas de disponibilidade."
+    },
+    {
+      "pergunta": "Qual serviço da AWS permite implantar uma réplica de banco de dados em várias regiões da AWS?",
+      "opcoes": [
+        "Amazon RDS",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon DynamoDB"
+      ],
+      "resposta_correta": "Amazon RDS"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um banco de dados NoSQL?",
+      "opcoes": [
+        "Amazon RDS",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon DynamoDB"
+      ],
+      "resposta_correta": "Amazon DynamoDB"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um sistema de arquivos de rede?",
+      "opcoes": [
+        "Amazon RDS",
+        "Amazon EC2",
+        "Amazon EFS",
+        "Amazon DynamoDB"
+      ],
+      "resposta_correta": "Amazon EFS"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um data warehouse?",
+      "opcoes": [
+        "Amazon RDS",
+        "Amazon EC2",
+        "Amazon Redshift",
+        "Amazon DynamoDB"
+      ],
+      "resposta_correta": "Amazon Redshift"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo da web?",
+      "opcoes": [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS",
+        "Todos os itens acima"
+      ],
+      "resposta_correta": "Todos os itens acima"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um site estático?",
+      "opcoes": [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS",
+        "Todos os itens acima"
+      ],
+      "resposta_correta": "Amazon S3"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo sem servidor?",
+      "opcoes": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Lambda"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo em contêiner?",
+      "opcoes": [
+        "Amazon ECS",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon ECS"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de aprendizado de máquina?",
+      "opcoes": [
+        "Amazon SageMaker",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon SageMaker"
+    },
+      {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de Internet das Coisas (IoT)?",
+      "opcoes": [
+        "AWS IoT Core",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS IoT Core"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de blockchain?",
+      "opcoes": [
+        "Amazon Managed Blockchain",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Managed Blockchain"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de realidade aumentada (AR) ou realidade virtual (VR)?",
+      "opcoes": [
+        "Amazon Sumerian",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Sumerian"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de jogos?",
+      "opcoes": [
+        "Amazon GameLift",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon GameLift"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de mídia?",
+      "opcoes": [
+        "AWS Elemental MediaConvert",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Elemental MediaConvert"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de satélite?",
+      "opcoes": [
+        "AWS Ground Station",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Ground Station"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de robótica?",
+      "opcoes": [
+        "AWS RoboMaker",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS RoboMaker"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de computação quântica?",
+      "opcoes": [
+        "Amazon Braket",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Braket"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de desenvolvimento de jogos?",
+      "opcoes": [
+        "Amazon Lumberyard",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Lumberyard"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de mídia social?",
+      "opcoes": [
+        "Amazon Pinpoint",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Pinpoint"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de comunicação?",
+      "opcoes": [
+        "Amazon Connect",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Connect"
+    },
+      {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de produtividade?",
+      "opcoes": [
+        "Amazon WorkSpaces",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon WorkSpaces"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de análise de dados?",
+      "opcoes": [
+        "Amazon Athena",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Athena"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de segurança?",
+      "opcoes": [
+        "Amazon GuardDuty",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon GuardDuty"
+    },
+    {
+      "pergunta": "Qual serviço da AWS você usaria para hospedar um aplicativo de gerenciamento?",
+      "opcoes": [
+        "AWS CloudTrail",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS CloudTrail"
+    }
+  ]
+}

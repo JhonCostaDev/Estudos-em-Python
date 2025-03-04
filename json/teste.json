@@ -1,0 +1,234 @@
+{
+  "teste":[
+    {
+      "ID": "5-[CF]-1",
+      "Pergunta": "Qual declaração descreve a computação em nuvem?",
+      "Opções": [
+        "Ela oferece serviços sob um contrato de preço fixo.",
+        "Ela requer que o cliente mantenha seu próprio hardware.",
+        "Ela fornece recursos de tecnologia da informação (TI) sob demanda.",
+        "Ela fornece recursos para gerenciar apenas dados."
+      ],
+      "Resposta": "Ela fornece recursos de tecnologia da informação (TI) sob demanda."
+    },
+    {
+      "ID": "5-[CF]-2",
+      "Pergunta": "Qual cenário é um exemplo de software como serviço (SaaS) na computação em nuvem?",
+      "Opções": [
+        "O fornecedor terceirizado gerencia a aquisição de recursos e o aplicativo. O desenvolvedor é responsável pelo conteúdo do aplicativo.",
+        "O desenvolvedor gerencia as atualizações, os patches e a aquisição de recursos. O fornecedor terceirizado é responsável apenas pelo hardware.",
+        "O desenvolvedor implanta o código no ambiente de nuvem mantido pelo fornecedor terceirizado.",
+        "O desenvolvedor mantém servidores virtuais, sistemas operacionais e dados para obter mais controle sobre os recursos."
+      ],
+      "Resposta": "O fornecedor terceirizado gerencia a aquisição de recursos e o aplicativo. O desenvolvedor é responsável pelo conteúdo do aplicativo."
+    },
+      {
+      "ID": "5-[CF]-3",
+      "Pergunta": "Um desenvolvedor está concentrado em implantar códigos executados na nuvem AWS. Qual modelo de serviço de nuvem esse desenvolvedor utiliza?",
+      "Opções": [
+        "Infraestrutura como serviço (IaaS)",
+        "Plataforma como serviço (PaaS)",
+        "Software como serviço (SaaS)",
+        "Modelo híbrido"
+      ],
+      "Resposta": "Plataforma como serviço (PaaS)"
+    },
+      {
+      "ID": "5-[CF]-4",
+      "Pergunta": "Qual modelo de serviço de nuvem dá ao usuário mais controle sobre os recursos de tecnologia da informação (TI), como acesso a recursos de rede, computadores (virtuais ou em hardware dedicado) e espaço de armazenamento de dados?",
+      "Opções": [
+        "Plataforma como serviço (PaaS)",
+        "Software como serviço (SaaS)",
+        "Modelo híbrido",
+        "Infraestrutura como serviço (IaaS)"
+      ],
+      "Resposta": "Infraestrutura como serviço (IaaS)"
+    },
+        {
+      "ID": "5-[CF]-5",
+      "Pergunta": "Uma empresa tem um data center on-premises e também executa uma parte de sua infraestrutura na nuvem. Qual modelo de implantação de computação em nuvem descreve esse cenário?",
+      "Opções": [
+        "Nuvem pública",
+        "Nuvem dedicada",
+        "Nuvem privada",
+        "Nuvem híbrida"
+      ],
+      "Resposta": "Nuvem híbrida"
+    },
+    {
+      "ID": "6-[CF]-1",
+      "Pergunta": "Qual modelo de computação em nuvem oferece ao usuário a capacidade de usar imediatamente um serviço sem ter que executar ou gerenciar nenhum recurso?",
+      "Opções": [
+        "Infraestrutura como serviço (IaaS)",
+        "Plataforma como serviço (PaaS)",
+        "Software como serviço (SaaS)",
+        "Contêineres como Serviço (CaaS)"
+      ],
+      "Resposta": "Software como serviço (SaaS)"
+    },
+    {
+      "ID": "6-[CF]-2",
+      "Pergunta": "Qual declaração descreve a AWS?",
+      "Opções": [
+        "A AWS fornece infraestrutura on-premises que oferece suporte a todos os tipos e tamanhos de empresas.",
+        "A AWS é um provedor de serviços de nuvem seguro que oferece muitos serviços para ajudar as empresas a escalar e crescer.",
+        "A AWS é uma varejista da web que vende milhões de produtos a um custo competitivo.",
+        "A AWS fornece serviços da web por meio de provedores de nuvem terceirizados."
+      ],
+      "Resposta": "A AWS é um provedor de serviços de nuvem seguro que oferece muitos serviços para ajudar as empresas a escalar e crescer."
+    },
+    {
+      "ID": "6-[CF]-3",
+      "Pergunta": "Qual categorias de serviços a AWS oferece? (Selecione DUAS respostas.)",
+      "Opções": [
+        "Computação",
+        "Financeiro",
+        "Médico",
+        "Armazenamento",
+        "Seguros"
+      ],
+      "Resposta": "Computação e Armazenamento"
+    },
+    {
+      "ID": "6-[CF]-4",
+      "Pergunta": "Quais ferramentas os clientes podem usar para criar e gerenciar recursos na nuvem AWS? (Selecione TRÊS respostas.)",
+      "Opções": [
+        "AWS Direct Connect",
+        "AWS Management Console",
+        "AWS CLI",
+        "Amazon Aurora",
+        "Kits de desenvolvimento de software da AWS (SDKs)",
+        "AWS Fargate"
+      ],
+      "Resposta": "AWS Management Console, AWS CLI e Kits de desenvolvimento de software da AWS (SDKs)"
+    },
+    {
+      "ID": "6-[CF]-5",
+      "Pergunta": "Qual recurso a documentação da AWS fornece?",
+      "Opções": [
+        "Tutoriais e projetos",
+        "Materiais do curso de treinamento",
+        "Contatos de suporte",
+        "Guias de linguagem de programação"
+      ],
+      "Resposta": "Tutoriais e projetos"
+    },
+    {
+      "ID": "7-[CF]-1",
+      "Pergunta": "Quais tipos de transferência de dados são gratuitas para o Amazon S3? (Selecione DUAS respostas.)",
+      "Opções": [
+        "Transferência de dados de saída do Amazon S3 para o Amazon EC2 em diferentes regiões",
+        "Transferência de dados de saída do Amazon S3 para o Amazon CloudFront na mesma região",
+        "Transferência de dados de entrada do Amazon EC2 para o Amazon S3 em diferentes regiões",
+        "Transferência de dados de entrada da Internet para o Amazon S3",
+        "Transferência de dados de saída do Amazon S3 para a internet"
+      ],
+      "Resposta": "Transferência de dados de saída do Amazon S3 para o Amazon CloudFront na mesma região e Transferência de dados de entrada da Internet para o Amazon S3"
+    },
+    {
+      "ID": "7-[CF]-2",
+      "Pergunta": "Quais opções de pagamento estão disponíveis para a maioria das instâncias reservadas do Amazon EC2? (Selecione TRÊS respostas.)",
+      "Opções": [
+        "Pagamento total antecipado",
+        "Pagamento antecipado parcial",
+        "Nenhum pagamento antecipado",
+        "Pagamento parcelado",
+        "Pagamento trimestral",
+        "Pagamento por hora"
+      ],
+      "Resposta": "Pagamento total antecipado, Pagamento antecipado parcial e Nenhum pagamento antecipado"
+    },
+    {
+      "ID": "7-[CF]-3",
+      "Pergunta": "Quais declarações descrevem os benefícios do uso da calculadora de preço da AWS? (Selecione TRÊS respostas.)",
+      "Opções": [
+        "Oferece um conjunto de relatórios padrão que fornece informações sobre fatores de custo e tendências de uso.",
+        "Oferece aos clientes a capacidade de configurar um período de tempo personalizado e visualizar o uso de dados em níveis diários ou mensais.",
+        "Estima os custos mensais de serviços.",
+        "Oferece aos clientes a capacidade de criar estimativas para os casos de uso da AWS.",
+        "Fornece aos clientes a capacidade de criar orçamentos anuais, trimestrais, mensais ou até diários dependendo das necessidades de negócio.",
+        "Pode ajudar a identificar oportunidades de redução de custos."
+      ],
+      "Resposta": "Estima os custos mensais de serviços., Oferece aos clientes a capacidade de criar estimativas para os casos de uso da AWS. e Pode ajudar a identificar oportunidades de redução de custos."
+    },
+    {
+      "ID": "7-[CF]-4",
+      "Pergunta": "Quais categorias são fatores fundamentais de custos com a AWS? (Selecione TRÊS respostas.)",
+      "Opções": [
+        "Computação",
+        "Redes e entrega de conteúdo",
+        "Armazenamento",
+        "Compras de hardware",
+        "Transferência de dados",
+        "Taxas de encerramento de serviço"
+      ],
+      "Resposta": "Computação, Armazenamento e Transferência de dados"
+    },
+    {
+      "ID": "7-[CF]-5",
+      "Pergunta": "Qual serviço da AWS os clientes podem usar para criar estimativas, compartilhar uma estimativa com um link exclusivo e revisitar quaisquer estimativas diretamente por meio de um navegador?",
+      "Opções": [
+        "AWS Trusted Advisor",
+        "AWS Cloud Economics Center",
+        "Calculadora de preço da AWS",
+        "AWS Cost Explorer"
+      ],
+      "Resposta": "Calculadora de preço da AWS"
+    },
+    {
+      "ID": "8-[CF]-1",
+      "Pergunta": "A infraestrutura global da AWS foi projetada e criada para fornecer qual competência?",
+      "Opções": [
+        "Acesso à internet",
+        "Pontos de presença em todos os países do mundo",
+        "A mesma estrutura de custos de serviço em todas as regiões",
+        "Escalabilidade"
+      ],
+      "Resposta": "Escalabilidade"
+    },
+    {
+      "ID": "8-[CF]-2",
+      "Pergunta": "O que é uma zona de disponibilidade?",
+      "Opções": [
+        "Um ou mais data center(s) criado(s) com isolamento de falhas",
+        "Uma área geográfica isolada",
+        "Data centers construídos sem isolamento de falhas porque são agrupados juntos",
+        "Todos os data centers em um raio de 100 milhas (161 quilômetros)"
+      ],
+      "Resposta": "Um ou mais data center(s) criado(s) com isolamento de falhas"
+    },
+    {
+      "ID": "8-[CF]-3",
+      "Pergunta": "O que é uma Região AWS?",
+      "Opções": [
+        "Um único data center.",
+        "Um grupo de data centers em um raio de 100 milhas (161 quilômetros)",
+        "Uma área geográfica no mundo",
+        "Uma área geográfica nos Estados Unidos"
+      ],
+      "Resposta": "Uma área geográfica no mundo"
+    },
+    {
+      "ID": "8-[CF]-4",
+      "Pergunta": "Quantas zonas de disponibilidade existem em uma Região AWS?",
+      "Opções": [
+        "Uma a duas",
+        "Duas ou mais",
+        "Quatro ou mais",
+        "No mínimo, três"
+      ],
+      "Resposta": "Duas ou mais"
+    },
+    {
+      "ID": "8-[CF]-5",
+      "Pergunta": "O que é o Amazon CloudFront?",
+      "Opções": [
+        "Uma rede dedicada que fornece conteúdo para usuários finais na mesma zona de disponibilidade",
+        "Uma rede global de entrega de conteúdo (CDN) que fornece conteúdo a usuários finais com latência reduzida",
+        "Rede de entrega de conteúdo (CDN) que fornece conteúdo em uma única localização geográfica",
+        "Um serviço que trabalha com provedores terceirizados para entregar conteúdo a usuários finais com latência reduzida"
+      ],
+      "Resposta": "Uma rede global de entrega de conteúdo (CDN) que fornece conteúdo a usuários finais com latência reduzida"
+    }
+  ]
+}

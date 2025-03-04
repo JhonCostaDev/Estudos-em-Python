@@ -1,0 +1,254 @@
+{
+  "assentment":[
+    {
+      "pergunta": "Qual dos seguintes é um benefício da computação em nuvem?",
+      "opcoes": [
+        "Aumento da velocidade e agilidade",
+        "Custos iniciais mais altos",
+        "Maior tempo de inatividade",
+        "Menos escalabilidade"
+      ],
+      "resposta_correta": "Aumento da velocidade e agilidade"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um modelo de serviço de computação em nuvem?",
+      "opcoes": [
+        "Infraestrutura como serviço (IaaS)",
+        "Software como produto (SaaP)",
+        "Hardware como serviço (HaaS)",
+        "Dados como serviço (DaaS)"
+      ],
+      "resposta_correta": "Infraestrutura como serviço (IaaS)"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de computação da AWS?",
+      "opcoes": [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS",
+        "Todos os itens acima"
+      ],
+      "resposta_correta": "Todos os itens acima"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de armazenamento da AWS?",
+      "opcoes": [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS",
+        "Nenhum dos itens acima"
+      ],
+      "resposta_correta": "Amazon S3"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de banco de dados da AWS?",
+      "opcoes": [
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS",
+        "Nenhum dos itens acima"
+      ],
+      "resposta_correta": "Amazon RDS"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de rede da AWS?",
+      "opcoes": [
+        "Amazon VPC",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon VPC"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de segurança da AWS?",
+      "opcoes": [
+        "Amazon IAM",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon IAM"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de gerenciamento da AWS?",
+      "opcoes": [
+        "AWS CloudTrail",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS CloudTrail"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de análise da AWS?",
+      "opcoes": [
+        "Amazon Athena",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Athena"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de aprendizado de máquina da AWS?",
+      "opcoes": [
+        "Amazon SageMaker",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon SageMaker"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de Internet das Coisas (IoT) da AWS?",
+      "opcoes": [
+        "AWS IoT Core",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS IoT Core"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de computação sem servidor da AWS?",
+      "opcoes": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Lambda"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de contêiner da AWS?",
+      "opcoes": [
+        "Amazon ECS",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon ECS"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de migração da AWS?",
+      "opcoes": [
+        "AWS Database Migration Service",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Database Migration Service"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de blockchain da AWS?",
+      "opcoes": [
+        "Amazon Managed Blockchain",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Managed Blockchain"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de realidade aumentada (AR) e realidade virtual (VR) da AWS?",
+      "opcoes": [
+        "Amazon Sumerian",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Sumerian"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de jogos da AWS?",
+      "opcoes": [
+        "Amazon GameLift",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon GameLift"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de mídia da AWS?",
+      "opcoes": [
+        "AWS Elemental MediaConvert",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Elemental MediaConvert"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de satélite da AWS?",
+      "opcoes": [
+        "AWS Ground Station",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS Ground Station"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de robótica da AWS?",
+      "opcoes": [
+        "AWS RoboMaker",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "AWS RoboMaker"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de computação quântica da AWS?",
+      "opcoes": [
+        "Amazon Braket",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Braket"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de desenvolvimento de jogos da AWS?",
+      "opcoes": [
+        "Amazon Lumberyard",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Lumberyard"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de mídia social da AWS?",
+      "opcoes": [
+        "Amazon Pinpoint",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Pinpoint"
+    },
+    {
+      "pergunta": "Qual dos seguintes é um serviço de comunicação da AWS?",
+      "opcoes": [
+        "Amazon Connect",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon Connect"
+    },
+      {
+      "pergunta": "Qual dos seguintes é um serviço de produtividade da AWS?",
+      "opcoes": [
+        "Amazon WorkSpaces",
+        "Amazon EC2",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "resposta_correta": "Amazon WorkSpaces"
+    }
+  ]
+}

@@ -1,0 +1,774 @@
+{
+  "questions": [
+    {
+      "question": "What is the AWS shared responsibility model?",
+      "options": [
+        "AWS is responsible for securing the infrastructure, and customers are responsible for securing their data.",
+        "AWS is responsible for everything, including customer data and applications.",
+        "Customers are responsible for everything, including the physical infrastructure.",
+        "AWS and customers share equal responsibility for all aspects of security."
+      ],
+      "answer": "A",
+      "explanation": "AWS is responsible for securing the underlying infrastructure (e.g., hardware, software, networking), while customers are responsible for securing their data, applications, and configurations."
+    },
+    {
+      "question": "Which AWS service allows you to run code without provisioning or managing servers?",
+      "options": [
+        "Amazon EC2",
+        "AWS Lambda",
+        "Amazon S3",
+        "Amazon RDS"
+      ],
+      "answer": "B",
+      "explanation": "AWS Lambda is a serverless compute service that lets you run code without managing servers."
+    },
+    {
+      "question": "What is the primary benefit of Amazon S3?",
+      "options": [
+        "Running virtual machines",
+        "Storing and retrieving large amounts of data",
+        "Managing relational databases",
+        "Automating code deployments"
+      ],
+      "answer": "B",
+      "explanation": "Amazon S3 (Simple Storage Service) is designed for scalable storage and retrieval of data."
+    },
+    {
+      "question": "Which of the following is a key benefit of the AWS Cloud?",
+      "options": [
+        "Fixed and predictable costs",
+        "No need for security management",
+        "Pay-as-you-go pricing",
+        "Limited scalability"
+      ],
+      "answer": "C",
+      "explanation": "AWS offers a pay-as-you-go pricing model, allowing customers to pay only for what they use."
+    },
+    {
+      "question": "What does AWS IAM stand for?",
+      "options": [
+        "Infrastructure Access Management",
+        "Identity and Access Management",
+        "Internet Application Management",
+        "Integrated Account Management"
+      ],
+      "answer": "B",
+      "explanation": "IAM stands for Identity and Access Management, which is used to manage access to AWS services and resources."
+    },
+    {
+      "question": "Which AWS service provides a global content delivery network (CDN)?",
+      "options": [
+        "Amazon CloudFront",
+        "Amazon Route 53",
+        "AWS Direct Connect",
+        "Amazon VPC"
+      ],
+      "answer": "A",
+      "explanation": "Amazon CloudFront is a CDN that delivers content to users with low latency and high transfer speeds."
+    },
+    {
+      "question": "What is the purpose of an AWS Availability Zone?",
+      "options": [
+        "To provide a separate geographical region",
+        "To isolate resources for security",
+        "To provide a distinct location within a region with independent power, cooling, and physical security",
+        "To host only specific types of services"
+      ],
+      "answer": "C",
+      "explanation": "An Availability Zone is a distinct data center within an AWS region, designed to be isolated from failures in other zones."
+    },
+    {
+      "question": "Which AWS service is used to monitor resources and applications?",
+      "options": [
+        "AWS CloudTrail",
+        "AWS Config",
+        "Amazon CloudWatch",
+        "AWS Trusted Advisor"
+      ],
+      "answer": "C",
+      "explanation": "Amazon CloudWatch is used to monitor AWS resources and applications in real time."
+    },
+    {
+      "question": "What is the purpose of AWS Trusted Advisor?",
+      "options": [
+        "To provide real-time monitoring of resources",
+        "To optimize costs, improve performance, and enhance security",
+        "To manage user access and permissions",
+        "To automate infrastructure deployments"
+      ],
+      "answer": "B",
+      "explanation": "AWS Trusted Advisor provides recommendations to optimize costs, improve performance, and enhance security."
+    },
+    {
+      "question": "Which of the following is a characteristic of Amazon EC2?",
+      "options": [
+        "It is a serverless compute service.",
+        "It provides resizable compute capacity in the cloud.",
+        "It is used only for storage purposes.",
+        "It is a managed database service."
+      ],
+      "answer": "B",
+      "explanation": "Amazon EC2 (Elastic Compute Cloud) provides resizable compute capacity in the cloud."
+    },
+    {
+      "question": "Which AWS service is used to create and manage virtual networks?",
+      "options": [
+        "Amazon VPC",
+        "AWS Direct Connect",
+        "Amazon Route 53",
+        "AWS Lambda"
+      ],
+      "answer": "A",
+      "explanation": "Amazon VPC (Virtual Private Cloud) allows you to create and manage virtual networks in the AWS Cloud."
+    },
+    {
+      "question": "What is the purpose of AWS Elastic Beanstalk?",
+      "options": [
+        "To provide a serverless compute service",
+        "To automate the deployment and scaling of applications",
+        "To manage relational databases",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Elastic Beanstalk is a platform-as-a-service (PaaS) that automates application deployment and scaling."
+    },
+    {
+      "question": "Which AWS service is used for relational databases?",
+      "options": [
+        "Amazon DynamoDB",
+        "Amazon RDS",
+        "Amazon Redshift",
+        "Amazon S3"
+      ],
+      "answer": "B",
+      "explanation": "Amazon RDS (Relational Database Service) is used to manage relational databases like MySQL, PostgreSQL, and SQL Server."
+    },
+    {
+      "question": "What is the purpose of AWS CloudTrail?",
+      "options": [
+        "To monitor resource usage",
+        "To track user activity and API usage",
+        "To deliver content globally",
+        "To manage access permissions"
+      ],
+      "answer": "B",
+      "explanation": "AWS CloudTrail records AWS API calls and user activity for auditing and compliance purposes."
+    },
+    {
+      "question": "Which AWS service is used for NoSQL databases?",
+      "options": [
+        "Amazon RDS",
+        "Amazon DynamoDB",
+        "Amazon Redshift",
+        "Amazon Aurora"
+      ],
+      "answer": "B",
+      "explanation": "Amazon DynamoDB is a fully managed NoSQL database service."
+    },
+    {
+      "question": "What is the purpose of AWS Organizations?",
+      "options": [
+        "To manage multiple AWS accounts",
+        "To monitor resource usage",
+        "To provide a global CDN",
+        "To automate code deployments"
+      ],
+      "answer": "A",
+      "explanation": "AWS Organizations helps you manage and consolidate multiple AWS accounts under a single umbrella."
+    },
+    {
+      "question": "Which AWS service is used for data warehousing?",
+      "options": [
+        "Amazon RDS",
+        "Amazon Redshift",
+        "Amazon DynamoDB",
+        "Amazon S3"
+      ],
+      "answer": "B",
+      "explanation": "Amazon Redshift is a fully managed data warehousing service."
+    },
+    {
+      "question": "What is the purpose of AWS Snowball?",
+      "options": [
+        "To migrate large amounts of data to AWS",
+        "To provide a global CDN",
+        "To manage virtual networks",
+        "To monitor AWS resources"
+      ],
+      "answer": "A",
+      "explanation": "AWS Snowball is a physical device used to transfer large amounts of data into and out of AWS."
+    },
+    {
+      "question": "Which AWS service is used for DNS management?",
+      "options": [
+        "Amazon CloudFront",
+        "Amazon Route 53",
+        "AWS Direct Connect",
+        "Amazon VPC"
+      ],
+      "answer": "B",
+      "explanation": "Amazon Route 53 is a scalable Domain Name System (DNS) web service."
+    },
+    {
+      "question": "What is the purpose of AWS Config?",
+      "options": [
+        "To monitor resource usage",
+        "To track changes in AWS resources",
+        "To deliver content globally",
+        "To manage access permissions"
+      ],
+      "answer": "B",
+      "explanation": "AWS Config tracks changes to your AWS resources and helps you maintain compliance."
+    },
+    {
+      "question": "Which AWS service is used to automate infrastructure deployment and management?",
+      "options": [
+        "AWS CloudFormation",
+        "AWS Elastic Beanstalk",
+        "AWS OpsWorks",
+        "AWS CodeDeploy"
+      ],
+      "answer": "A",
+      "explanation": "AWS CloudFormation allows you to model and provision AWS resources using templates."
+    },
+    {
+      "question": "What is the purpose of AWS Direct Connect?",
+      "options": [
+        "To provide a global CDN",
+        "To establish a dedicated network connection between AWS and your data center",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Direct Connect provides a dedicated network connection from your premises to AWS."
+    },
+    {
+      "question": "Which AWS service is used for real-time messaging between applications?",
+      "options": [
+        "Amazon SQS",
+        "Amazon SNS",
+        "Amazon MQ",
+        "Amazon Kinesis"
+      ],
+      "answer": "B",
+      "explanation": "Amazon SNS (Simple Notification Service) is used for real-time messaging and notifications."
+    },
+    {
+      "question": "What is the purpose of Amazon SQS?",
+      "options": [
+        "To store and retrieve large amounts of data",
+        "To manage relational databases",
+        "To decouple and scale microservices, distributed systems, and serverless applications",
+        "To monitor AWS resources"
+      ],
+      "answer": "C",
+      "explanation": "Amazon SQS (Simple Queue Service) is a message queuing service that decouples application components."
+    },
+    {
+      "question": "Which AWS service is used for container management?",
+      "options": [
+        "Amazon ECS",
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon RDS"
+      ],
+      "answer": "A",
+      "explanation": "Amazon ECS (Elastic Container Service) is used to manage and run Docker containers."
+    },
+    {
+      "question": "What is the purpose of AWS WAF?",
+      "options": [
+        "To monitor resource usage",
+        "To protect web applications from common web exploits",
+        "To manage DNS records",
+        "To automate infrastructure deployments"
+      ],
+      "answer": "B",
+      "explanation": "AWS WAF (Web Application Firewall) helps protect web applications from common attacks like SQL injection and cross-site scripting."
+    },
+    {
+      "question": "Which AWS service is used for machine learning?",
+      "options": [
+        "Amazon SageMaker",
+        "Amazon Rekognition",
+        "Amazon Comprehend",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon SageMaker, Rekognition, and Comprehend are all AWS services used for machine learning."
+    },
+    {
+      "question": "What is the purpose of AWS Shield?",
+      "options": [
+        "To provide a global CDN",
+        "To protect against DDoS attacks",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Shield is a managed Distributed Denial of Service (DDoS) protection service."
+    },
+    {
+      "question": "Which AWS service is used for data analytics?",
+      "options": [
+        "Amazon Redshift",
+        "Amazon Athena",
+        "Amazon EMR",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon Redshift, Athena, and EMR are all AWS services used for data analytics."
+    },
+    {
+      "question": "What is the purpose of AWS Step Functions?",
+      "options": [
+        "To manage virtual networks",
+        "To coordinate multiple AWS services into serverless workflows",
+        "To monitor AWS resources",
+        "To automate infrastructure deployments"
+      ],
+      "answer": "B",
+      "explanation": "AWS Step Functions is used to coordinate and orchestrate serverless workflows across multiple AWS services."
+    },
+    {
+      "question": "Which AWS service is used for real-time data streaming?",
+      "options": [
+        "Amazon Kinesis",
+        "Amazon SQS",
+        "Amazon SNS",
+        "Amazon MQ"
+      ],
+      "answer": "A",
+      "explanation": "Amazon Kinesis is used for real-time data streaming and analytics."
+    },
+    {
+      "question": "What is the purpose of AWS Glue?",
+      "options": [
+        "To provide a serverless compute service",
+        "To automate data preparation and ETL (Extract, Transform, Load) processes",
+        "To manage relational databases",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Glue is a fully managed ETL service that automates data preparation and transformation."
+    },
+    {
+      "question": "Which AWS service is used for serverless application development?",
+      "options": [
+        "AWS Lambda",
+        "Amazon EC2",
+        "Amazon ECS",
+        "Amazon RDS"
+      ],
+      "answer": "A",
+      "explanation": "AWS Lambda is a serverless compute service that allows you to run code without provisioning or managing servers."
+    },
+    {
+      "question": "What is the purpose of AWS Fargate?",
+      "options": [
+        "To manage virtual networks",
+        "To provide a serverless compute engine for containers",
+        "To monitor AWS resources",
+        "To automate infrastructure deployments"
+      ],
+      "answer": "B",
+      "explanation": "AWS Fargate is a serverless compute engine for running containers without managing the underlying infrastructure."
+    },
+    {
+      "question": "Which AWS service is used for managing secrets and sensitive data?",
+      "options": [
+        "AWS Secrets Manager",
+        "AWS IAM",
+        "AWS KMS",
+        "AWS Config"
+      ],
+      "answer": "A",
+      "explanation": "AWS Secrets Manager is used to manage and retrieve secrets such as database credentials and API keys."
+    },
+    {
+      "question": "What is the purpose of AWS Systems Manager?",
+      "options": [
+        "To provide a global CDN",
+        "To manage and automate operational tasks across AWS resources",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Systems Manager helps you manage and automate operational tasks like patching, configuration, and compliance."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying machine learning models?",
+      "options": [
+        "Amazon SageMaker",
+        "Amazon Rekognition",
+        "Amazon Comprehend",
+        "Amazon Polly"
+      ],
+      "answer": "A",
+      "explanation": "Amazon SageMaker is a fully managed service for building, training, and deploying machine learning models."
+    },
+    {
+      "question": "What is the purpose of AWS Backup?",
+      "options": [
+        "To provide a global CDN",
+        "To automate and centralize backup management across AWS services",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Backup automates and centralizes backup management for AWS services like EC2, RDS, and S3."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing log data?",
+      "options": [
+        "Amazon CloudWatch Logs",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS X-Ray"
+      ],
+      "answer": "A",
+      "explanation": "Amazon CloudWatch Logs is used to collect, monitor, and analyze log data from AWS resources."
+    },
+    {
+      "question": "What is the purpose of AWS X-Ray?",
+      "options": [
+        "To provide a global CDN",
+        "To analyze and debug distributed applications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS X-Ray helps developers analyze and debug distributed applications by providing insights into request tracing and performance."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying containerized applications?",
+      "options": [
+        "Amazon ECS",
+        "AWS Fargate",
+        "Amazon EKS",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon ECS, AWS Fargate, and Amazon EKS are all AWS services used for managing and deploying containerized applications."
+    },
+    {
+      "question": "What is the purpose of AWS Global Accelerator?",
+      "options": [
+        "To provide a global CDN",
+        "To improve the availability and performance of applications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Global Accelerator improves the availability and performance of applications by routing traffic to the optimal endpoint."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing data lakes?",
+      "options": [
+        "Amazon S3",
+        "Amazon Redshift",
+        "Amazon Athena",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon S3, Redshift, and Athena are all AWS services used for managing and analyzing data lakes."
+    },
+    {
+      "question": "What is the purpose of AWS DataSync?",
+      "options": [
+        "To provide a global CDN",
+        "To automate data transfer between on-premises storage and AWS",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS DataSync automates and accelerates data transfer between on-premises storage and AWS."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying serverless applications?",
+      "options": [
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "AWS Step Functions",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "AWS Lambda, Amazon API Gateway, and AWS Step Functions are all AWS services used for managing and deploying serverless applications."
+    },
+    {
+      "question": "What is the purpose of AWS AppSync?",
+      "options": [
+        "To provide a global CDN",
+        "To manage and deploy GraphQL APIs",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS AppSync is used to manage and deploy GraphQL APIs."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing IoT data?",
+      "options": [
+        "AWS IoT Core",
+        "AWS IoT Analytics",
+        "AWS IoT Greengrass",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "AWS IoT Core, AWS IoT Analytics, and AWS IoT Greengrass are all AWS services used for managing and analyzing IoT data."
+    },
+    {
+      "question": "What is the purpose of AWS Outposts?",
+      "options": [
+        "To provide a global CDN",
+        "To extend AWS infrastructure and services to on-premises environments",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Outposts extends AWS infrastructure and services to on-premises environments."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing video streams?",
+      "options": [
+        "Amazon Kinesis Video Streams",
+        "AWS Elemental MediaConvert",
+        "AWS Elemental MediaLive",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon Kinesis Video Streams, AWS Elemental MediaConvert, and AWS Elemental MediaLive are all AWS services used for managing and analyzing video streams."
+    },
+    {
+      "question": "What is the purpose of AWS Ground Station?",
+      "options": [
+        "To provide a global CDN",
+        "To manage and control satellite communications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Ground Station is used to manage and control satellite communications."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing log data?",
+      "options": [
+        "Amazon CloudWatch Logs",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS X-Ray"
+      ],
+      "answer": "A",
+      "explanation": "Amazon CloudWatch Logs is used to collect, monitor, and analyze log data from AWS resources."
+    },
+    {
+      "question": "What is the purpose of AWS X-Ray?",
+      "options": [
+        "To provide a global CDN",
+        "To analyze and debug distributed applications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS X-Ray helps developers analyze and debug distributed applications by providing insights into request tracing and performance."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying containerized applications?",
+      "options": [
+        "Amazon ECS",
+        "AWS Fargate",
+        "Amazon EKS",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon ECS, AWS Fargate, and Amazon EKS are all AWS services used for managing and deploying containerized applications."
+    },
+    {
+      "question": "What is the purpose of AWS Global Accelerator?",
+      "options": [
+        "To provide a global CDN",
+        "To improve the availability and performance of applications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Global Accelerator improves the availability and performance of applications by routing traffic to the optimal endpoint."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing data lakes?",
+      "options": [
+        "Amazon S3",
+        "Amazon Redshift",
+        "Amazon Athena",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon S3, Redshift, and Athena are all AWS services used for managing and analyzing data lakes."
+    },
+    {
+      "question": "What is the purpose of AWS DataSync?",
+      "options": [
+        "To provide a global CDN",
+        "To automate data transfer between on-premises storage and AWS",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS DataSync automates and accelerates data transfer between on-premises storage and AWS."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying serverless applications?",
+      "options": [
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "AWS Step Functions",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "AWS Lambda, Amazon API Gateway, and AWS Step Functions are all AWS services used for managing and deploying serverless applications."
+    },
+    {
+      "question": "What is the purpose of AWS AppSync?",
+      "options": [
+        "To provide a global CDN",
+        "To manage and deploy GraphQL APIs",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS AppSync is used to manage and deploy GraphQL APIs."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing IoT data?",
+      "options": [
+        "AWS IoT Core",
+        "AWS IoT Analytics",
+        "AWS IoT Greengrass",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "AWS IoT Core, AWS IoT Analytics, and AWS IoT Greengrass are all AWS services used for managing and analyzing IoT data."
+    },
+    {
+      "question": "What is the purpose of AWS Outposts?",
+      "options": [
+        "To provide a global CDN",
+        "To extend AWS infrastructure and services to on-premises environments",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Outposts extends AWS infrastructure and services to on-premises environments."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing video streams?",
+      "options": [
+        "Amazon Kinesis Video Streams",
+        "AWS Elemental MediaConvert",
+        "AWS Elemental MediaLive",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon Kinesis Video Streams, AWS Elemental MediaConvert, and AWS Elemental MediaLive are all AWS services used for managing and analyzing video streams."
+    },
+    {
+      "question": "What is the purpose of AWS Ground Station?",
+      "options": [
+        "To provide a global CDN",
+        "To manage and control satellite communications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Ground Station is used to manage and control satellite communications."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing log data?",
+      "options": [
+        "Amazon CloudWatch Logs",
+        "AWS CloudTrail",
+        "AWS Config",
+        "AWS X-Ray"
+      ],
+      "answer": "A",
+      "explanation": "Amazon CloudWatch Logs is used to collect, monitor, and analyze log data from AWS resources."
+    },
+    {
+      "question": "What is the purpose of AWS X-Ray?",
+      "options": [
+        "To provide a global CDN",
+        "To analyze and debug distributed applications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS X-Ray helps developers analyze and debug distributed applications by providing insights into request tracing and performance."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying containerized applications?",
+      "options": [
+        "Amazon ECS",
+        "AWS Fargate",
+        "Amazon EKS",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon ECS, AWS Fargate, and Amazon EKS are all AWS services used for managing and deploying containerized applications."
+    },
+    {
+      "question": "What is the purpose of AWS Global Accelerator?",
+      "options": [
+        "To provide a global CDN",
+        "To improve the availability and performance of applications",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS Global Accelerator improves the availability and performance of applications by routing traffic to the optimal endpoint."
+    },
+    {
+      "question": "Which AWS service is used for managing and analyzing data lakes?",
+      "options": [
+        "Amazon S3",
+        "Amazon Redshift",
+        "Amazon Athena",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "Amazon S3, Redshift, and Athena are all AWS services used for managing and analyzing data lakes."
+    },
+    {
+      "question": "What is the purpose of AWS DataSync?",
+      "options": [
+        "To provide a global CDN",
+        "To automate data transfer between on-premises storage and AWS",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS DataSync automates and accelerates data transfer between on-premises storage and AWS."
+    },
+    {
+      "question": "Which AWS service is used for managing and deploying serverless applications?",
+      "options": [
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "AWS Step Functions",
+        "All of the above"
+      ],
+      "answer": "D",
+      "explanation": "AWS Lambda, Amazon API Gateway, and AWS Step Functions are all AWS services used for managing and deploying serverless applications."
+    },
+    {
+      "question": "What is the purpose of AWS AppSync?",
+      "options": [
+        "To provide a global CDN",
+        "To manage and deploy GraphQL APIs",
+        "To manage DNS records",
+        "To monitor AWS resources"
+      ],
+      "answer": "B",
+      "explanation": "AWS AppSync is used to manage and deploy GraphQL APIs."
+    }
+  ]
+}
