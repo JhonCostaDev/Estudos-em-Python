@@ -10,7 +10,7 @@ def load_and_convert_json_to_dict(json_file) -> dict:
     return data
 
 def load_question(dictionary, list_position=0) -> dict:
-    key = list(dictionary.keys())[0]
+    key = list(dictionary.keys())[list_position]
     list_lenght = len(dictionary[key]) # tamanho 
     list_questions = dictionary[key]
 
@@ -38,7 +38,7 @@ def get_user_choise():
 
 #print(type(load_and_convert_json_to_dict(file_path)))
 #print(load_question(load_and_convert_json_to_dict(file_path)))
-show_question(load_question(load_and_convert_json_to_dict(file_path)))
+show_question(load_question(load_and_convert_json_to_dict(file_path), 1))
 get_user_choise()
 
 
