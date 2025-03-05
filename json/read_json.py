@@ -1,7 +1,7 @@
 import json
 
 
-file_path = '/home/jonathan/Documents/GitHub/Estudos-em-Python/json/review_cap1.json'
+file_path = 'json/review_cap1.json'
 
 def load_and_convert_json_to_dict(json_file) -> dict:
     """Carrega um arquivo JSON, transforma em um dicionario python."""
