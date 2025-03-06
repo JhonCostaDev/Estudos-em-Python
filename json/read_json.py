@@ -33,7 +33,7 @@ def load_question(dictionary, chapter=0, list_position=0) -> dict:
 
 #print(type(load_question(load_and_convert_json_to_dict(file_path),0,0)['answer']).__name__ == 'str')
 
-def show_question(dictionary):
+def show_question(dictionary: dict):
     '''Show the question in CLI'''
     question_number = dictionary['questionNumber']
     question = dictionary['questionText']
