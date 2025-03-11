@@ -40,5 +40,26 @@
         "text":  "Que tipo de documento do AWS System Manager pode criar um snapshot de uma instância do Amazon Elastic Compute Cloud (EC2)?",
         "choices": ["Documento de pacotes", "Documento de automação", "Documento de sessão", "Documento de política"],
         "answer": "Documento de automação"
+    },
+    {
+        "kc": "167",
+        "question": "02",
+        "text": "Qual recurso do AWS System Manager pode armazenar dados de configuração?",
+			"choices": ["Gerenciador de estados", "Armazenamento de parâmetro", "Recurso de inventário", "Gerenciador de patch"],
+			"answer": "Armazenamento de parâmetro"
+    }, 
+    {
+        "kc": "167",
+        "question": "03",
+        "text":"Qual recurso do AWS System Manager pode se conectar a uma intância deretamente do AWS System Manager?",
+			"choices":["Gerenciador de instâncis", "Gerenciador de sessão", "Gerenciador de estados", "Gerenciador de patch"],
+			"answer": "Gerenciador de sessão"
+    },
+    {
+        "kc": "167",
+        "question": "03",
+        "text": "Quais Linguagens de marcação são compatíveis com o AWS Cloud Formation (Selecione Duas Respostas).",
+			"choices":["Python", "JavaScript", "YAML - Ain't Markup Language", "JSON - JavaScript Object Notation", "Ruby"],
+			"answer": ["YAML - Ain't Markup Language", "JSON - JavaScript Object Notation"]
     }
 ]
