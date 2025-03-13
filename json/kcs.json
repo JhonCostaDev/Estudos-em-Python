@@ -35,6 +35,152 @@
 		"answer":"Nuvem Híbrida"
     },
     {
+        "kc": "6",
+        "question": "1",
+        "text": "Qual modelo de computação em nuvem oferece ao usuário a capacidade de usar imediatamente um serviço sem ter que executar ou gerenciar nenhum recurso?",
+        "choices": [
+            "Infraestrutura como serviço (IaaS)",
+            "Plataforma como serviço (PaaS)",
+            "Software como serviço (SaaS)",
+            "Contêineres como Serviço (CaaS)"
+        ],
+        "answer": "Software como serviço (SaaS)"
+    },
+    {
+        "kc": "6",
+        "question": "2",
+        "text": "Qual declaração descreve a AWS?",
+        "choices": [
+            "A AWS fornece infraestrutura on-premises que oferece suporte a todos os tipos e tamanhos de empresas.",
+            "A AWS é um provedor de serviços de nuvem seguro que oferece muitos serviços para ajudar as empresas a escalar e crescer.",
+            "A AWS é uma varejista da web que vende milhões de produtos a um custo competitivo.",
+            "A AWS fornece serviços da web por meio de provedores de nuvem terceirizados."
+        ],
+        "answer": "A AWS é um provedor de serviços de nuvem seguro que oferece muitos serviços para ajudar as empresas a escalar e crescer."
+    },
+    {
+        "kc": "6",
+        "question": "3",
+        "text": "Qual categorias de serviços a AWS oferece? (Selecione DUAS respostas)",
+        "choices": [
+            "Computação",
+            "Financeiro",
+            "Médico",
+            "Armazenamento",
+            "Seguros"
+        ],
+        "answer": "Computação"
+    },
+    {
+        "kc": "6",
+        "question": "4",
+        "text": "Quais ferramentas os clientes podem usar para criar e gerenciar recursos na nuvem AWS? (Selecione TRÊS respostas)",
+        "choices": [
+            "AWS Direct Connect",
+            "AWS Management Console",
+            "AWS CLI",
+            "Amazon Aurora",
+            "Kits de desenvolvimento de software da AWS (SDKs)",
+            "AWS Fargate"
+        ],
+        "answer": "AWS Management Console"
+    },
+    {
+        "kc": "6",
+        "question": "5",
+        "text": "Qual recurso a documentação da AWS fornece?",
+        "choices": [
+            "Tutoriais e projetos",
+            "Materiais do curso de treinamento",
+            "Contatos de suporte",
+            "Guias de linguagem de programação"
+        ],
+        "answer": "Tutoriais e projetos"
+    },
+
+    {
+        "kc": "7",
+        "question": "1",
+        "text": "Quais tipos de transferência de dados são gratuitas para o Amazon S3? (Duas Respostas)",
+        "choices": [
+            "Transferência de dados de saída do Amazon S3 para o Amazon EC2 em diferentes regiões",
+            "Transferência de dados de saída do Amazon S3 para o Amazon CloudFront na mesma região",
+            "Transferência de dados de entrada do Amazon EC2 para o Amazon S3 em diferentes regiões",
+            "Transferência de dados de entrada da Internet para o Amazon S3",
+            "Transferência de dados de saída do Amazon S3 para a internet"
+        ],
+        "answer": [
+            "Transferência de dados de saída do Amazon S3 para o Amazon CloudFront na mesma região",
+            "Transferência de dados de entrada da Internet para o Amazon S3"
+        ]
+    },
+    {
+        "kc": "7",
+        "question": "2",
+        "text": "Quais opções de pagamento estão disponíveis para a maioria das instâncias reservadas do Amazon EC2? (três respostas)",
+        "choices": [
+            "Pagamento total antecipado",
+            "Pagamento antecipado parcial",
+            "Nenhum pagamento antecipado",
+            "Pagamento parcelado",
+            "Pagamento trimestral",
+            "Pagamento por hora"
+        ],
+        "answer": [
+            "Pagamento total antecipado",
+            "Pagamento antecipado parcial",
+            "Nenhum pagamento antecipado"
+        ]
+    },
+    {
+        "kc": "7",
+        "question": "3",
+        "text": "Quais declarações descrevem os benefícios do uso da calculadora de preço da AWS? (Três respostas)",
+        "choices": [
+            "Oferece um conjunto de relatórios padrão que fornece informações sobre fatores de custo e tendências de uso.",
+            "Oferece aos clientes a capacidade de configurar um período de tempo personalizado e visualizar o uso de dados em níveis diários ou mensais.",
+            "Estima os custos mensais de serviços.",
+            "Oferece aos clientes a capacidade de criar estimativas para os casos de uso da AWS.",
+            "Fornece aos clientes a capacidade de criar orçamentos anuais, trimestrais, mensais ou até diários dependendo das necessidades de negócio.",
+            "Pode ajudar a identificar oportunidades de redução de custos."
+        ],
+        "answer": [
+            "Estima os custos mensais de serviços.",
+            "Oferece aos clientes a capacidade de criar estimativas para os casos de uso da AWS.",
+            "Pode ajudar a identificar oportunidades de redução de custos."
+        ]
+    },
+    {
+        "kc": "7",
+        "question": "4",
+        "text": "Quais categorias são fatores fundamentais de custos com a AWS? (Três respostas)",
+        "choices": [
+            "Computação",
+            "Redes e entrega de conteúdo",
+            "Armazenamento",
+            "Compras de hardware",
+            "Transferência de dados",
+            "Taxas de encerramento de serviço"
+        ],
+        "answer": [
+            "Computação",
+            "Armazenamento",
+            "Transferência de dados"
+        ]
+    },
+    {
+        "kc": "7",
+        "question": "5",
+        "text": "Qual serviço da AWS os clientes podem usar para criar estimativas, compartilhar uma estimativa com um link exclusivo e revisitar quaisquer estimativas diretamente por meio de um navegador?",
+        "choices": [
+            "AWS Trusted Advisor",
+            "AWS Cloud Economics Center",
+            "Calculadora de preço da AWS",
+            "AWS Cost Explorer"
+        ],
+        "answer": "Calculadora de preço da AWS"
+    },
+    {
         "kc": "167",
         "question": "01",
         "text":  "Que tipo de documento do AWS System Manager pode criar um snapshot de uma instância do Amazon Elastic Compute Cloud (EC2)?",

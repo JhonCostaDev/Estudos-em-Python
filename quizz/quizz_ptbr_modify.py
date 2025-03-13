@@ -43,6 +43,7 @@ def load_question(list, item=0) -> tuple:
     return question_number, question, answer_len, answer_type, options, answer #
     
 # Get user answer
+#TODO: receber mais que 4 opcoes de multipla escolha
 def get_user_choise():
     """Take the user option"""
     #usar o asnwer len para controlar o numero de respostas dada pelo usuario
@@ -55,6 +56,7 @@ def get_user_choise():
         print('Opção inválida, por favor escolha: A, B, C, ou D')
 
 # TODO: Modificar função abaixo para acitar multipla resposta
+# TODO: receber tres opcoes de respostas 
 def verify_answer(tuple, user_answer, item=0):
     tags_options = ['A', 'B', 'C', 'D']
     answer_type = tuple[-3] #aqui o tipo
@@ -73,6 +75,7 @@ def verify_answer(tuple, user_answer, item=0):
         else:
             return False
     else:
+        pass
         # como o usuario digitara multipla respota
 
 
