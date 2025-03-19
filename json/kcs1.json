@@ -97,6 +97,7 @@
         ],
         "answer": "Tutoriais e projetos"
     },
+
     {
         "kc": "7",
         "question": "1",
@@ -206,77 +207,5 @@
         "text": "Quais Linguagens de marcação são compatíveis com o AWS Cloud Formation (Selecione Duas Respostas).",
 			"choices":["Python", "JavaScript", "YAML - Ain't Markup Language", "JSON - JavaScript Object Notation", "Ruby"],
 			"answer": ["YAML - Ain't Markup Language", "JSON - JavaScript Object Notation"]
-    },
-    {
-        "kc": "167",
-        "question": "01",
-        "text":  "Qual recurso fornece um conjunto de perguntas fundamentais que clientes podem usar para entender se suas arquiteturas se alinham às práticas recomendadas de nuvem?",
-        "choices": ["Documentos da AWS Well-Architected Framework", "Perspectivas da AWS Well-Architected", "Ferramentas da AWS Well-Architected", " Documento de design"],
-        "answer": "Documentos da AWS Well-Architected Framework"
-    },
-    {
-        "kc": "167",
-        "question": "02",
-        "text":  "Qual pilar da AWS Well-Architected Framework fornece detalhes sobre como se recuperar de falhas e mitigar interrupções?",
-        "choices": ["Excelência operacional", "Segurança", "Confiabilidade", "Eficiência de desempenho"],
-        "answer": "Confiabilidade"
-    },
-    {
-        "kc": "167",
-        "question": "03",
-        "text":  "Qual destes é um princípio de projeto fundamental ao projetar uma estrutura na nuvem?",
-        "choices": ["Testar os sistemas em escala de produção", "Considere as necessidades de capacidade", "Sistemas de teste em escala de desenvolvimento", "Aplique o runbook quando ocorrer um problema na produção"],
-        "answer": "Testar os sistemas em escala de produção"
-    },
-    {
-        "kc": "167",
-        "question": "04",
-        "text":  "Uma empresa está migrando para um ambiente de nuvem Amazon Web Services (AWS). Seus servidores são o último conjunto de recursos para os quais eles migrarão. Qual recurso de serviço da AWS pode substituir um servidor tradicional?",
-        "choices": ["Sistema de arquivos do Amazon Elastic File System (Amazon EFS)", "Volume do Amazon Elastic Block Store (Amazon EBS)", "Instância da Amazon DynamoDB", "Instância Amazon Elastic Compute Cloud (Amazon EC2)"],
-        "answer": "Instância Amazon Elastic Compute Cloud (Amazon EC2)"
-    },
-    {
-        "kc": "167",
-        "question": "05",
-        "text":  "Quais são as duas perspectivas principais na AWS Cloud Adoption Framework (AWS CAF)?",
-        "choices": ["Gestão de mudanças organizacionais e de pessoas", "Comercial e técnico", "Plataforma e serviço de monitoramento", "Proteção de dados e resposta a incidentes"],
-        "answer": "Comercial e técnico"
-    },
-    {
-        "kc": "213",
-        "question": "01",
-        "text":  "Uma pessoa administradora de sistemas deseja criar uma infraestrutura de implantação azul/verde usando o Amazon Route 53 para eliminar gradualmente o ambiente azul. Que política de roteamento do Route 53 a pessoa deve usar?",
-        "choices": ["Política de roteamento de failover", "Política de roteamento ponderado", "Política de roteamento simples", "Política de roteamento de resposta com valores múltiplos"],
-        "answer": "Política de roteamento ponderado"
-    },
-    {
-        "kc": "213",
-        "question": "02",
-        "text":  "Que tipo de política de escalabilidade usa um alarme do Amazon CloudWatch e varia a resposta de escala com base no tamanho da violação de alarme?",
-        "choices": ["Escalabilidade programada", "Escalabilidade simples", "Escalabilidade de monitoramento de objetivo", "Scaling em etapas"],
-        "answer": "Scaling em etapas"
-    },
-    {
-        "kc": "213",
-        "question": "03",
-        "text":  "Qual serviço da Amazon Web Services (AWS) é uma rede de entrega de conteúdo (CDN)?",
-        "choices": ["Amazon CloudFront", "Amazon EC2 Auto Scaling", "Elastic Load Balancing", "Amazon Route 53"],
-        "answer": "Amazon CloudFront"
-    },
-    {
-        "kc": "213",
-        "question": "04",
-        "text":  "Que tipo de balanceador de carga do Elastic Load Balancing oferece visibilidade sobre a integridade das instâncias de destino?",
-        "choices": ["Balanceador de carga clássica", "Network Load Balancer", "Application Load Balancer", "Instância de Gateway do balanceador de carga na nuvem (Amazon EC2)"],
-        "answer": "Application Load Balancer"
-    },
-    {
-        "kc": "213",
-        "question": "05",
-        "text":  "Qual componente de um Application Load Balancer verifica solicitações de conexão de clientes?",
-        "choices": ["Listener", "Forwarder", "Grupo de destino", "Regra"],
-        "answer": "Listener"
     }
-
-
 ]
