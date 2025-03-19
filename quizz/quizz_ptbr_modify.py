@@ -4,7 +4,7 @@ import os
 import time
 #%%
 #json_path = '/Estudos-em-Python/json/kcs.json'
-json_path ='/home/jonathan/Documents/pythonTemp/Estudos-em-Python-jhon_anm/json/kcs.json'
+json_path ='json/kcs.json'
 def first_screen():
     #exibir menu inicial
     os.system('cls' if os.name == 'nt' else 'clear')

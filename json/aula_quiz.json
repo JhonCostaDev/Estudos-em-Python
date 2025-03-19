@@ -1,0 +1,537 @@
+[
+  {
+    "question": "Clientes de uma empresa na Europa e na Austrália expressaram insatisfação devido à demora no carregamento de imagens em um site, resultando em uma experiência ruim. Os recursos de infraestrutura desse site estão provisionados na Região de São Paulo. O que poderia ser feito imediatamente para aprimorar essa situação?",
+    "options": ["Habilitar o Intelligent-Tiering das classes do S3", "Habilitar o CloudFront", "Criar uma conta nessas regiões e duplicar a infraestrutura", "Deixar as imagens numa resolução bem baixa"],
+    "correct_answer": "Habilitar o CloudFront"
+  },
+  {
+    "question": "Uma startup precisa assegurar a alta disponibilidade de uma aplicação que será lançada no Brasil. Qual seria a estratégia mais eficaz para utilizar o AWS RDS atendendo a esse requisito?",
+    "options": ["Multi A-Z (Distribuir os bancos em mais de uma zona de disponibilidade)", "Multi Regions (Distribuir os bancos em mais de uma região)", "Criar um Security Group para isolar apenas os bancos de dados e aumentar a performance", "Read Replicas (Utilizar cópias de leitura)"],
+    "correct_answer": "Multi A-Z (Distribuir os bancos em mais de uma zona de disponibilidade)"
+  },
+  {
+    "question": "Qual serviço da AWS é empregado para realizar migrações rápidas e seguras de dados entre bancos de dados?",
+    "options": ["AWS Connect", "AWS Glue", "AWS Data Migration Service (DMS)", "AWS Snow"],
+    "correct_answer": "AWS Data Migration Service (DMS)"
+  },
+  {
+    "question": "Qual é o modelo de planos flexíveis que proporciona preços mais acessíveis em comparação com a tarifação sob demanda, mediante um compromisso de uso específico (medido em USD por hora) por um período de um ou três anos?",
+    "options": ["Low Cost", "AWS Efficient Cost", "Savings Plans", "AWS Billing"],
+    "correct_answer": "Savings Plans"
+  },
+  {
+    "question": "Qual é o plano recomendado se você está experimentando ou testando na AWS?",
+    "options": ["Enterprise", "Basic", "Developer", "Business"],
+    "correct_answer": "Developer"
+  },
+  {
+    "question": "Um administrador de redes atua em um escritório jurídico que lida com uma considerável quantidade de contratos. Estes documentos passam por frequentes alterações e demandam um eficiente processo de gerenciamento de versões. Qual serviço da AWS recomenda-se para armazenar esses documentos e atender a esse requisito específico?",
+    "options": ["CodeCommit", "Git", "S3", "EBS"],
+    "correct_answer": "S3"
+  },
+  {
+    "question": "Qual é a maior diferença entre os serviços AWS RDS e DynamoDB?",
+    "options": ["RDS é NoSQL, DynamoDB é SQL", "RDS é totalmente gerenciado, DynamoDB não é gerenciado", "RDS é SQL, DynamoDB é NoSQL", "Nenhuma das opções"],
+    "correct_answer": "RDS é SQL, DynamoDB é NoSQL"
+  },
+  {
+    "question": "Qual plano de suporte oferece o AWS Trusted Advisor, serviço que fornece recomendações para ajudar na utilização das melhores práticas de uso?",
+    "options": ["Developer", "Todos", "Business", "Enterprise"],
+    "correct_answer": "Todos"
+  },
+  {
+    "question": "Uma das principais vantagens ao optar pela AWS reside nas opções flexíveis de pagamento oferecidas por seus serviços. Qual é o método de pagamento padrão amplamente utilizado na maioria dos serviços da AWS?",
+    "options": ["Pagamento conforme a compra", "Pagamento conforme o uso", "Pagamento conforme o licenciamento", "Pagamento conforme o contrato"],
+    "correct_answer": "Pagamento conforme o uso"
+  },
+  {
+    "question": "Recentemente, uma empresa passou por uma auditoria e recebeu autuações devido à exposição de arquivos contendo dados sensíveis de clientes em buckets do S3, representando riscos de vazamento de informações e prejudicando a imagem da empresa. Qual serviço da AWS pode ser empregado para monitorar dados e prevenir ocorrências desse tipo?",
+    "options": ["AWS Sensitive", "AWS Keys Management Service (KMS)", "AWS Macie", "AWS GuardDuty"],
+    "correct_answer": "AWS Macie"
+  },
+  {
+    "question": "Qual é a diferença entre o AWS Web Application Firewall (WAF) e o AWS Firewall Manager em termos de funcionalidade e finalidade?",
+    "options": ["Não há diferença significativa entre o WAF e o Firewall Manager em termos de funcionalidade e finalidade.", "O WAF é usado para gerenciar políticas de segurança de firewall em várias contas, enquanto o Firewall Manager é usado para proteger aplicativos web.", "O WAF é uma solução centralizada para gerenciar regras de firewall em várias contas, enquanto o Firewall Manager é focado em proteger aplicativos web contra ataques.", "O WAF é um serviço para bloquear ataques de aplicativos web, enquanto o Firewall Manager é uma solução para gerenciar regras de firewall em várias contas."],
+    "correct_answer": "O WAF é um serviço para bloquear ataques de aplicativos web, enquanto o Firewall Manager é uma solução para gerenciar regras de firewall em várias contas."
+  },
+  {
+    "question": "Algumas aplicações críticas de uma empresa enfrentaram problemas em produção. Devido à ausência de registros dos componentes, a equipe de suporte encontrou dificuldades na resolução dos problemas para restaurar essas aplicações. Qual serviço da AWS é indicado para monitorar o ambiente, coletar logs e outras informações para uso em situações como essa?",
+    "options": ["AWS CloudWatch", "AWS CloudTrail", "AWS Log", "AWS Monitor"],
+    "correct_answer": "AWS CloudWatch"
+  },
+  {
+    "question": "Por que é necessário associar um Elastic Block Store (EBS) a uma instância EC2?",
+    "options": ["Para deixar o fluxo de transmissão de dados mais rápido.", "Para permitir redundância computacional.", "Para que os dados sejam criptografados.", "Para fornecer armazenamento persistente e escalável."],
+    "correct_answer": "Para fornecer armazenamento persistente e escalável."
+  },
+  {
+    "question": "Qual serviço da AWS que, além de ajudar na visualização dos cinco serviços que mais oneram os custos de uma conta, também disponibiliza um detalhamento minucioso sobre todos os serviços e custos da conta?",
+    "options": ["AWS Billing", "AWS Cost Explorer", "AWS Pricing", "AWS Budget"],
+    "correct_answer": "AWS Cost Explorer"
+  },
+  {
+    "question": "O que pode ser feito com a AWS CLI (Command Line Interface) após o correto download, instalação e configuração em seu computador? (Selecione 2 options)",
+    "options": ["Automatizar serviços da AWS", "Realizar o login utilizando o MFA", "Controlar múltiplos serviços da AWS", "Visualizar gráfico de Custo de serviços da AWS"],
+    "correct_answer": ["Automatizar serviços da AWS", "Controlar múltiplos serviços da AWS"]
+  },
+  {
+    "question": "Uma corporação global com clientes distribuídos em praticamente todos os países pretende adotar a AWS como sua nova provedora de serviços de computação em nuvem. Qual é o principal benefício imediato para os clientes dessa empresa ao utilizar a AWS?",
+    "options": ["Suporte em mais de 50 idiomas", "Documentações bem traduzidas", "Presença Global", "Suporte ao usuário final"],
+    "correct_answer": "Presença Global"
+  },
+  {
+    "question": "Qual é o banco de dados NoSQL do tipo chave e valor gerenciado pela AWS?",
+    "options": ["MySQL", "DynamoDB", "Aurora", "Cassandra"],
+    "correct_answer": "DynamoDB"
+  },
+  {
+    "question": "A Amazon oferece várias classes de armazenamento no S3 específicas para cada tipo de uso. Qual das opções abaixo são classes existentes no serviço? (Selecione 3)",
+    "options": ["S3 Business", "S3 Standard Infrequent Access", "S3 Standard", "S3 Enterprise", "S3 Intelligent-Tiering"],
+    "correct_answer": ["S3 Standard Infrequent Access", "S3 Standard", "S3 Intelligent-Tiering"]
+  },
+  {
+    "question": "Qual é o formato de arquivo utilizado na maioria das configurações de serviços da AWS?",
+    "options": ["TXT", "XML", "JSON", "Config"],
+    "correct_answer": "JSON"
+  },
+  {
+    "question": "Um desenvolvedor tem o interesse de criar uma aplicação em Java ou C#. Onde ele pode encontrar um conjunto de ferramentas para dar suporte a esse propósito?",
+    "options": ["AWS IDE", "AWS SDK", "AWS Console", "AWS CLI"],
+    "correct_answer": "AWS SDK"
+  },
+  
+  {},
+  {
+    "question": "Quais são as regras para a criação de nomes de Buckets do S3? (Selecione 3 options)",
+    "options": [
+      "Devem possuir de 3 a 63 caracteres",
+      "Devem consistir apenas em letras minúsculas, números, pontos (.) e hífens",
+      "Devem ser formatados como um endereço IP sempre que possível",
+      "Devem começar e terminar com uma letra ou número"
+    ],
+    "correct_answer": [
+      "Devem possuir de 3 a 63 caracteres",
+      "Devem consistir apenas em letras minúsculas, números, pontos (.) e hífens",
+      "Devem começar e terminar com uma letra ou número"
+    ]
+  },
+  {
+    "question": "Quais são os 6 pilares do Well-Architected Framework?",
+    "options": [
+      "Excelência Operacional, Segurança, Confiabilidade, Desempenho Eficiente, Otimização de Custos, Sustentabilidade",
+      "Excelência Operacional, Escalabilidade, Confiabilidade, Desempenho Eficiente, Otimização de Custos, Disciplina",
+      "Excelência Operacional, Segurança, Confiabilidade, Desempenho Eficiente, Escalabilidade, Disciplina",
+      "Excelência Operacional, Segurança, Escalabilidade, Desempenho Eficiente, Otimização de Custos, Sustentabilidade"
+    ],
+    "correct_answer": "Excelência Operacional, Segurança, Confiabilidade, Desempenho Eficiente, Otimização de Custos, Sustentabilidade"
+  },
+  {
+    "question": "Uma empresa está desenvolvendo uma nova plataforma para a distribuição global de vídeos. Qual serviço pode reduzir a latência entre a solicitação e a entrega do serviço para essa solução?",
+    "options": [
+      "Amazon CloudFront",
+      "Amazon Redis",
+      "Amazon S3",
+      "Amazon ElasticCache"
+    ],
+    "correct_answer": "Amazon CloudFront"
+  },
+  {
+    "question": "Uma equipe de desenvolvimento está encarregada de redesenhar um sistema para modernizá-lo na AWS. Um dos requisitos não funcionais é a redução da interdependência para minimizar possíveis falhas entre os componentes. Qual dos seguintes conceitos deve ser aplicado?",
+    "options": [
+      "Integração",
+      "Segregação",
+      "Agregação",
+      "Desacoplamento"
+    ],
+    "correct_answer": "Desacoplamento"
+  },
+  {
+    "question": "Quais dos itens NÃO fazem parte dos pilares do Well-Architected Framework? (Selecione 2 options)",
+    "options": [
+      "Excelência Operacional",
+      "Segurança",
+      "Desacoplamento",
+      "Elasticidade"
+    ],
+    "correct_answer": ["Desacoplamento", "Elasticidade"]
+  },
+  {
+    "question": "Se você deseja fazer um gerenciamento total do seu banco de dados, qual é o serviço mais indicado para implementá-lo?",
+    "options": ["RDS", "DocumentDB", "EC2", "DynamoDB"],
+    "correct_answer": "RDS"
+  },
+  {
+    "question": "Quais serviços devem fazer parte de uma solução para uma aplicação escalonar conforme a demanda? (Escolha 2 options)",
+    "options": [
+      "Auto Scaling Group (ALG)",
+      "Elastic Load Balancer (ELB)",
+      "CloudFront",
+      "CloudFormation",
+      "Route53"
+    ],
+    "correct_answer": ["Auto Scaling Group (ALG)", "Elastic Load Balancer (ELB)"]
+  },
+  {
+    "question": "Qual é o banco de dados sem servidor (serverless) ofertado pela AWS?",
+    "options": ["Cassandra", "MySql", "MariaDB", "DynamoDB"],
+    "correct_answer": "DynamoDB"
+  },
+  {
+    "question": "Qual dos seguintes itens é de responsabilidade exclusiva da AWS no modelo de responsabilidade compartilhada (shared responsibility model)?",
+    "options": [
+      "Proteger os dados das aplicações dos usuários",
+      "Proteger a infraestrutura global",
+      "Gerenciar imagens customizadas das instâncias do AMI",
+      "Atualizar patch de segurança em instâncias do cliente"
+    ],
+    "correct_answer": "Proteger a infraestrutura global"
+  },
+  {
+    "question": "No modelo de responsabilidade compartilhada, qual é a função desempenhada pela AWS? (Selecione 2 options)",
+    "options": [
+      "Proteger o acesso aos dados das aplicações dos usuários",
+      "Fazer a manutenção dos hardware",
+      "Proteger o data center",
+      "Atualizar o sistema operacional das instâncias EC2"
+    ],
+    "correct_answer": ["Fazer a manutenção dos hardware", "Proteger o data center"]
+  },
+  {
+    "question": "Uma empresa deu início a um processo de migração para a AWS, exigindo que todos os departamentos de sistemas implementem suas aplicações utilizando modelos de infraestrutura pré-definidos pelo time de arquitetos e especialistas, aplicando a técnica de Infraestrutura como Código (IAC). Qual serviço é mais adequado para ser utilizado neste processo?",
+    "options": [
+      "Cloud Stacks",
+      "AWS CloudFormation",
+      "Cloud Templates",
+      "AWS Config"
+    ],
+    "correct_answer": "AWS CloudFormation"
+  },
+  {
+    "question": "Uma empresa necessita implementar uma rede virtual isolada para alocar seus servidores virtuais, separando a camada de dados da camada de servidores de aplicação. A solução deve consistir em duas sub-redes (subnets) para realizar essa segregação. Qual serviço da AWS é mais apropriado para implementar essa solução?",
+    "options": [
+      "AWS Organizations",
+      "Elastic Load Balancer (ELB)",
+      "Virtual Private Cloud (VPC)",
+      "AWS Budget"
+    ],
+    "correct_answer": "Virtual Private Cloud (VPC)"
+  },
+  {
+    "question": "Uma empresa adquiriu um contrato para obter um pacote com 50 licenças do Microsoft SQL Server, planejando instalar esses softwares em novos servidores conforme expande seus negócios globalmente. Devido às auditorias frequentes, a empresa precisa assegurar que apenas softwares licenciados estejam presentes em sua rede. Qual serviço da AWS simplifica o processo de conformidade nesse cenário?",
+    "options": [
+      "Certificate Manager",
+      "CloudFormation",
+      "Config",
+      "License Manager"
+    ],
+    "correct_answer": "License Manager"
+  },
+  {
+    "question": "Uma empresa desenvolveu uma aplicação no EC2 que se conecta aos dados no RDS. Qual serviço deve ser empregado para configurar adequadamente o acesso entre a aplicação e o banco de dados?",
+    "options": ["IAM Grant", "IAM Roles", "IAM Users", "IAM Groups"],
+    "correct_answer": "IAM Roles"
+  },
+  {
+    "question": "Qual é o serviço que, através da infraestrutura global da AWS, pode ser utilizado quando as suas aplicações apresentarem problemas de tráfego devido ao congestionamento da Internet?",
+    "options": [
+      "AWS DataSync",
+      "AWS CloudFront",
+      "AWS Snowball",
+      "AWS Global Accelerator"
+    ],
+    "correct_answer": "AWS Global Accelerator"
+  },
+  {
+    "question": "Através da AWS, é possível obter descontos proporcionais ao volume, resultando em economias significativas à medida que o uso é ampliado. Em qual dos serviços abaixo a definição de preço é estruturada em camadas, proporcionando redução no preço por GB à medida que o uso aumenta?",
+    "options": [
+      "Elastic Container Service (ECS)",
+      "Lambda",
+      "Simple Storage Service (S3)",
+      "Elastic Kubernetes Service (EKS)"
+    ],
+    "correct_answer": "Simple Storage Service (S3)"
+  },
+  {
+    "question": "Qual banco de dados foi projetado para proporcionar uma disponibilidade superior a 99,99%, realizando a replicação de seis cópias dos dados em três zonas distintas e mantendo um backup contínuo no Amazon S3?",
+    "options": ["MariaDB", "MySql", "Aurora", "DynamoDB"],
+    "correct_answer": "Aurora"
+  },
+  {
+    "question": "Sua empresa começou a usar a AWS e precisa liberar os acessos para 100 pessoas. Uma vez que o time é composto por desenvolvedores, DBAs e arquitetos, e que cada time precisa de um acesso exclusivo a determinados recursos, qual serviço você utilizará para otimizar essa gestão?",
+    "options": ["Organizations", "Cognito", "IAM Grupos", "IAM Team"],
+    "correct_answer": "IAM Grupos"
+  },
+  {
+    "question": "Como você pode proteger sua conta da AWS contra acessos não autorizados?",
+    "options": [
+      "Habilitando a Autenticação Multifator - Multi-Factor Authentication (MFA)",
+      "Desabilitando o acesso pela AWS Console",
+      "Implementando o serviço AWS Cognito",
+      "Configurando uma segunda senha"
+    ],
+    "correct_answer": "Habilitando a Autenticação Multifator - Multi-Factor"
+  },
+  
+  {"=============================================================================":"========================"},
+
+  {
+    "question": "Qual é a melhor prática para atender o princípio: 'construa para falhar e nada irá falhar'?",
+    "options": [
+      "Utilizar CloudFront para fazer o cache do conteúdo",
+      "Monitorar o ambiente para enviar alertas com o CloudWatch",
+      "Implantar a aplicação em múltiplas zonas de disponibilidade",
+      "Implantar a aplicação sempre com o CodeDeploy"
+    ],
+    "correct_answer": "Implantar a aplicação em múltiplas zonas de disponibilidade"
+  },
+  {
+    "question": "Uma desenvolvedora criou um workflow orientado a eventos e deseja que uma função sem servidor registre um log em um banco de dados ao concluir o processo. Qual serviço é mais apropriado para atender a essa finalidade?",
+    "options": ["SNS", "SES", "Lambda", "SQS"],
+    "correct_answer": "Lambda"
+  },
+  {
+    "question": "O departamento de marketing de uma empresa está elaborando uma campanha com duração de 12 meses. Antecipadamente, prevê-se um aumento no número de clientes no site, exigindo a adição de mais 3 instâncias EC2 para atender à demanda ao longo desse período. Qual tipo de instância apresentaria um custo mais vantajoso para esse cenário?",
+    "options": ["Dedicated Hosts", "Reserved", "Spot", "On Demand"],
+    "correct_answer": "Reserved"
+  },
+  {
+    "question": "Qual é o serviço da AWS que permite selecionar uma imagem de uma máquina pré-configurada para lançar uma instância EC2?",
+    "options": ["Amazon Image", "IAM", "AMI", "AWS IMG"],
+    "correct_answer": "AMI"
+  },
+  {
+    "question": "O design dos dados de uma aplicação incorpora uma base de dados relacional, que será utilizada pontual e imprevisivelmente, uma vez que o AWS Elastic Cache também será empregado para minimizar o acesso aos dados. Em termos de economia, qual seria o tipo recomendado de instância de banco de dados neste cenário?",
+    "options": ["Reserved", "Dedicated Hosts", "On Demand", "Spot"],
+    "correct_answer": "On Demand"
+  },
+  {
+    "question": "Qual é a classe de armazenamento do S3 que pode diminuir os custos, à medida que move os objetos automaticamente entre camadas, de acordo com a frequência de uso?",
+    "options": [
+      "S3 Standard Infrequent Access",
+      "S3 Standard",
+      "S3 Glacier",
+      "S3 Intelligent-Tiering"
+    ],
+    "correct_answer": "S3 Intelligent-Tiering"
+  },
+  {
+    "question": "Após avaliar diversos cenários para infraestrutura, uma empresa optou por não autorizar o uso de computação compartilhada. No entanto, ela busca uma solução na AWS que preserve as características de simplicidade, agilidade e elasticidade, enquanto utiliza servidores físicos dedicados. Qual serviço atende a essa necessidade?",
+    "options": ["EC2 dedicados", "EC2 reservados", "Hosts reservados", "Hosts dedicados"],
+    "correct_answer": "Hosts dedicados"
+  },
+  {
+    "question": "Qual dos pilares do Well-Architected Framework foca em como podemos continuamente melhorar processos e procedimentos?",
+    "options": [
+      "Confiabilidade",
+      "Performance Eficiente",
+      "Excelência Operacional",
+      "Segurança"
+    ],
+    "correct_answer": "Excelência Operacional"
+  },
+  {
+    "question": "A migração dos aplicativos de uma empresa para a AWS envolve a transferência de uma grande quantidade de dados, sendo impossível realizar virtualmente devido à instabilidade da conectividade de rede na infraestrutura atual. Qual serviço da AWS oferece uma variedade de produtos para permitir que a empresa realize essa migração de forma física?",
+    "options": [
+      "AWS DataSync",
+      "AWS DMS",
+      "AWS Snowball",
+      "AWS DirectConnect"
+    ],
+    "correct_answer": "AWS Snowball"
+  },
+  {
+    "question": "Qual é o plano de suporte que oferece tempo de resposta menor que 15 minutos para caso de sistema essencial aos negócios inativo?",
+    "options": ["Enterprise", "Todos", "Developer", "Business"],
+    "correct_answer": "Enterprise"
+  },
+  {
+    "question": "Para atender às necessidades de uma área de auditoria e conformidade, é essencial assegurar a manutenção e monitoramento das configurações ideais de serviços e sistemas. Qual serviço da AWS pode ser empregado para esse tipo de gerenciamento?",
+    "options": ["AWS Setup", "AWS Compliance", "AWS Config", "AWS Audit"],
+    "correct_answer": "AWS Config"
+  },
+  {
+    "question": "Uma organização pretende aprimorar a segurança de seus recursos na AWS, buscando uma solução que facilite o provisionamento, gerenciamento e implantação de certificados Secure Sockets Layer (SSL)/Transport Layer Security (TLS) a serem empregados nos serviços da AWS e nos recursos internos conectados. Qual serviço pode ser empregado para atender a essa finalidade?",
+    "options": [
+      "AWS Security",
+      "AWS KMS",
+      "AWS Certificate Manager",
+      "AWS Protocols"
+    ],
+    "correct_answer": "AWS Certificate Manager"
+  },
+  {
+    "question": "Qual é a melhor definição para Region (Região)?",
+    "options": [
+      "Uma localização geográfica no mundo que agrupa algumas availability zones (zonas de disponibilidade) e edge locations (redes de borda).",
+      "Uma region (região) é a mesma coisa que uma edge location (rede de borda).",
+      "Uma region (região) é um continente que aloca todos os data centers da AWS.",
+      "Uma region (região) é um data center dentro de uma availability zone (zona de disponibilidade)."
+    ],
+    "correct_answer": "Uma localização geográfica no mundo que agrupa algumas availability zones (zonas de disponibilidade) e edge locations (redes de borda)."
+  },
+  {
+    "question": "Qual dos itens abaixo não faz parte dos tipos de uso Free Tier (nível gratuito)?",
+    "options": ["Reserved", "Sempre gratuito", "Testes - Experimentação (Trial)", "12 Meses gratuitos"],
+    "correct_answer": "Reserved"
+  },
+  {
+    "question": "Uma empresa lançou um piloto de uma aplicação e ainda não tem uma estimativa precisa do número de clientes que a utilizarão. A aplicação requer alta disponibilidade e o piloto está programado para durar três meses. Em termos de plano de pagamento, qual seria o mais apropriado para esse cenário?",
+    "options": ["Reserved", "On-Demand", "Dedicated Hosts", "Spot"],
+    "correct_answer": "On-Demand"
+  },
+  {
+    "question": "Qual é o serviço de DNS da AWS que, entre outras coisas, transforma nomes de URLs em código IP para acessar os recursos da Cloud?",
+    "options": ["Route53", "AWS Auto Scaling", "ELB", "ACL"],
+    "correct_answer": "Route53"
+  },
+  {
+    "question": "Qual é a melhor maneira de manter aplicações resilientes na infraestrutura da AWS?",
+    "options": [
+      "Fazer uso do CloudFront",
+      "Utilizar o Auto Scaling para subir uma máquina sempre que a outra cair",
+      "Distribuir as instâncias em mais de uma zona de disponibilidade",
+      "Distribuir as instâncias em duas VPCs diferentes e dentro da mesma zona de disponibilidade"
+    ],
+    "correct_answer": "Distribuir as instâncias em mais de uma zona de disponibilidade"
+  },
+  {
+    "question": "Qual dos serviços abaixo é uma das formas de criar e gerenciar chaves de criptografia para muitos serviços dentro da AWS?",
+    "options": ["AWS KSM", "AWS KMS", "AWS Config", "AWS Keys"],
+    "correct_answer": "AWS KMS"
+  },
+  {
+    "question": "Qual serviço de armazenamento de dados da Amazon é empregado pelas áreas de Business Intelligence, possibilitando a análise de dados estruturados e semi-estruturados para gerar insights para o negócio?",
+    "options": ["EMR", "Amazon RedShift", "Kinesis", "Power BI"],
+    "correct_answer": "Amazon RedShift"
+  },
+  {
+    "question": "Quais dos seguintes serviços permitem a criação de scripts e automação a partir da linha de comando?",
+    "options": ["AWS Run", "AWS Console", "AWS CLI", "AWS SDK"],
+    "correct_answer": "AWS CLI"
+  },
+  {"======================================================================================================================dar":"========================"},
+
+  {
+    "question": "A equipe de TI de uma plataforma de vídeos foi incumbida de desenvolver um procedimento para possibilitar a geração de legendas automáticas em todos os vídeos disponíveis na plataforma. Qual serviço pode ajudá-los nessa tarefa?",
+    "options": ["Amazon Polly", "Amazon Translate", "Amazon Transcribe", "Amazon Lex"],
+    "correct_answer": "Amazon Transcribe"
+  },
+  {
+    "question": "Uma organização possui uma aplicação hospedada no EC2 que requer o envio de notificações para outras aplicações e serviços com base em eventos. Qual dos serviços abaixo é mais apropriado para atender a essa necessidade?",
+    "options": ["Amazon CloudWatch", "Amazon Simple Notification Service (SNS)", "Amazon Simple Queue Service (SQS)", "Amazon Simple Email Service (SES)"],
+    "correct_answer": "Amazon Simple Notification Service (SNS)"
+  },
+  {
+    "question": "Um desenvolvedor deseja acessar os serviços da AWS diretamente de sua IDE (IntelliJ, Visual Code, Eclipse, etc.). Qual serviço disponibiliza uma ferramenta (toolkit) que pode ser baixada e instalada na estação de trabalho, permitindo essa integração?",
+    "options": ["AWS CLI", "AWS Console Manager", "AWS Workspaces", "AWS SDKs"],
+    "correct_answer": "AWS SDKs"
+  },
+  {
+    "question": "Qual serviço da AWS é recomendado na implementação e no gerenciamento de banco de dados relacionais?",
+    "options": ["RDS", "DMS", "KMS", "DynamoDB"],
+    "correct_answer": "RDS"
+  },
+  {
+    "question": "A AWS é uma infraestrutura cloud global segura, extensível e confiável e que oferece mais de 200 serviços em diversos países ao redor do mundo. Sobre sua distribuição no mundo, podemos afirmar que?",
+    "options": [
+      "É atualmente composta por 6 zonas de disponibilidade (az) que estão divididas em 200 regiões",
+      "É atualmente composta por 33 regiões, que estão divididas em aproximadamente 105 zonas de disponibilidade (az)",
+      "É atualmente composta por 6 regiões, que estão divididas em 200 zonas de disponibilidade",
+      "É atualmente composta por 33 zonas de disponibilidade (az), que estão divididas em aproximadamente 105 regiões"
+    ],
+    "correct_answer": "É atualmente composta por 33 regiões, que estão divididas em aproximadamente 105 zonas de disponibilidade (az)"
+  },
+  {
+    "question": "Para conceder acesso à conta da AWS a três novos desenvolvedores que acabaram de ingressar na equipe, qual serviço específico da AWS deve ser empregado?",
+    "options": ["Elastic Compute Cloud (EC2)", "Amazon CloudFront", "Amazon Simple Storage Service (S3)", "Identity and Access Management (IAM)"],
+    "correct_answer": "Identity and Access Management (IAM)"
+  },
+  {
+    "question": "Uma empresa precisa estabelecer métodos em suas contas para simplificar a concessão de acessos aos times de desenvolvimento e aos colaboradores que se juntarem a eles. De que maneira isso pode ser concretizado?",
+    "options": [
+      "Com uso de Roles para criar um grupo de desenvolvedores e para fazer a gestão de acessos",
+      "Com uso da AWS SDK para gerenciar todos os desenvolvedores de forma automática",
+      "Com uso do AWS IAM Grupos para criar um grupo de desenvolvedores e para fazer a gestão de acessos",
+      "Com uso AWS Federation para criar um grupo de desenvolvedores e para fazer a gestão de acessos"
+    ],
+    "correct_answer": "Com uso do AWS IAM Grupos para criar um grupo de desenvolvedores e para fazer a gestão de acessos"
+  },
+  {
+    "question": "Uma startup deseja disponibilizar uma aplicação no endereço www.vocecertificado.com. Qual serviço pode ser empregado para criar esse domínio?",
+    "options": ["AutoScaling", "API Gateway", "S3", "Route 53"],
+    "correct_answer": "Route 53"
+  },
+  {
+    "question": "Qual plano de suporte oferece acesso aos engenheiros do Cloud Support por telefone, e-mail e chat 24 horas por dia, 7 dias por semana?",
+    "options": ["Basic", "Business", "Developer", "Standard"],
+    "correct_answer": "Business"
+  },
+  {
+    "question": "Quais dos itens abaixo fazem parte dos pilares do Well-Architected Framework? (Selecione 4 options)",
+    "options": ["Otimização de Custos", "Sustentabilidade", "Performance Eficiente", "Confiabilidade", "Agilidade"],
+    "correct_answer": ["Otimização de Custos", "Sustentabilidade", "Performance Eficiente", "Confiabilidade"]
+  },
+  {
+    "question": "Qual serviço da AWS faz recomendações para a otimização de segurança dos seus recursos?",
+    "options": ["Security Group", "MFA", "Trusted Advisor", "IAM"],
+    "correct_answer": "Trusted Advisor"
+  },
+  {
+    "question": "Qual dos serviços abaixo é uma solução para a criação de contêineres na AWS?",
+    "options": ["ECS", "ECR", "Auto Scaling", "EC2"],
+    "correct_answer": "ECS"
+  },
+  {
+    "question": "Qual das seguintes opções deve ser configurada para que uma função Lambda escreva dados no DynamoDB?",
+    "options": ["SNS", "API Gateway", "IAM Roles", "IAM Users"],
+    "correct_answer": "IAM Roles"
+  },
+  {
+    "question": "Qual é a melhor opção para salvar arquivos com pouca necessidade de uso?",
+    "options": ["EC2", "S3 Glacier", "S3 Standard", "DynamoDB"],
+    "correct_answer": "S3 Glacier"
+  },
+  {
+    "question": "Um objeto do S3 é composto por quais componentes? (Selecione 3 options)",
+    "options": ["Metadados", "Arquivo", "Role", "Policy", "Identificador exclusivo (chave)"],
+    "correct_answer": ["Metadados", "Arquivo", "Identificador exclusivo (chave)"]
+  },
+  {
+    "question": "Quais são as principais características do Amazon Kinesis? (Selecione 2 options)",
+    "options": [
+      "Coletar, processar e analisar streaming de dados em tempo real",
+      "Arquivar dados",
+      "Gerar insights rápidos de acordo com os dados obtidos",
+      "Executar consultas no S3",
+      "Executar Map Reduce"
+    ],
+    "correct_answer": [
+      "Coletar, processar e analisar streaming de dados em tempo real",
+      "Gerar insights rápidos de acordo com os dados obtidos"
+    ]
+  },
+  {
+    "question": "Quais dos seguintes bancos de dados são totalmente gerenciados pela AWS? (Escolha 3)",
+    "options": ["DynamoDB", "Redshift", "MySQL", "Aurora"],
+    "correct_answer": ["DynamoDB", "Redshift", "Aurora"]
+  },
+  {
+    "question": "Você descobriu que o seu website vem apresentando muita indisponibilidade devido a ataques DDoS. Quais serviços listados abaixo podem ser utilizados para evitá-los? (Selecione 2)",
+    "options": ["AWS CLI", "AWS GuardDuty", "AWS CloudFront", "AWS Shield"],
+    "correct_answer": ["AWS CloudFront", "AWS Shield"]
+  },
+  {
+    "question": "Qual categoria abaixo NÃO faz parte das ofertadas para instâncias EC2?",
+    "options": ["Propósitos Gerais", "Propósitos Específicos", "Computação Otimizada", "Computação Acelerada"],
+    "correct_answer": "Propósitos Específicos"
+  },
+  {
+    "question": "Quais são os três principais tipos de cloud computing? (Selecione 3)",
+    "options": ["SaaS - Software como Serviço", "IaaS - Infraestrutura como Serviço", "PaaS - Plataforma como Serviço", "BaaS - Backend como Serviço"],
+    "correct_answer": [
+      "SaaS - Software como Serviço",
+      "IaaS - Infraestrutura como Serviço",
+      "PaaS - Plataforma como Serviço"
+    ]
+  }
+]
