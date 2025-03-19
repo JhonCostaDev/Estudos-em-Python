@@ -1,0 +1,13 @@
+Identificação do problema:
+
+ # Otimização dos recursos naturais : Uso inteligênte de água.
+
+* índice de desperdício de água potável na distribuição no país é de 37,78%. Isso significa que mais de um terço da água tratada se perde antes de chegar às residências, empresas e indústrias.
+
+o volume de água desperdiçada no Brasil seria suficiente para abastecer 54 milhões de pessoas por ano.
+
+
+# Personalização do aprendizado:
+	Desenvolver uma aplicação que acompanhe o aprendizado individual de cada estudante e com ajuda de IA identificar as deficiências específicas de cada um, indicando aos professores conteúdos e atividades personalizadas.
+
+# 

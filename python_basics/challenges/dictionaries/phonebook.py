@@ -108,7 +108,7 @@ def remove_contact(dictionary):
     
 
 def main():
-    data_path = 'python_basics/challenges/dictionaries/data/contacts.json'
+    data_path = 'data/contacts.json'
     
     contacts = load_json(data_path=data_path)
     print(contacts)
