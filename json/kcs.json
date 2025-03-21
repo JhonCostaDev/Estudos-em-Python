@@ -276,7 +276,40 @@
         "text":  "Qual componente de um Application Load Balancer verifica solicitações de conexão de clientes?",
         "choices": ["Listener", "Forwarder", "Grupo de destino", "Regra"],
         "answer": "Listener"
+    },
+    {
+        "kc": "218",
+        "question": "01",
+        "text":  "Qual recurso de serviço da Amazon Web Services (AWS) monitora uma métrica e envia um alerta quando a métrica muda?",
+        "choices": ["Paineis AWS CloudTrail", "Alertas AWS CloudTrail", "Métricas do Amazon CloudWatch", "Alarmes do Amazon CloudWatch"],
+        "answer": "Alarmes do Amazon CloudWatch"
+    },
+    {
+        "kc": "218",
+        "question": "02",
+        "text":  "Qual serviço da Amazon Web Services (AWS) pode ser usado com o AWS CloudTrail para armazenar logs?",
+        "choices": ["Amazon Elastic File System (Amazon EFS)", "Amazon Aurora", "Amazon Simple Storage Service (Amazon S3)", "Amazon Elastic Block Store (Amazon EBS)"],
+        "answer": "Amazon Simple Storage Service (Amazon S3)"
+    },
+    {
+        "kc": "218",
+        "question": "03",
+        "text":  "Qual parâmetro indica uma alteração no ambiente da Amazon Web Services (AWS) ao criar um evento no Amazon CloudWatch Events?",
+        "choices": ["Eventos", "Públicos", "Regras", "Registros"],
+        "answer": "Eventos"
+    },
+    {
+        "kc": "218",
+        "question": "04",
+        "text":  "O que é um par nome-valor usado para identificar métricas no Amazon CloudWatch?",
+        "choices": ["Métrica", "Dimensão", "Namespace", "Period (Período)"],
+        "answer": "Dimensão"
+    },
+    {
+        "kc": "218",
+        "question": "05",
+        "text":  "Que tipo de registro pode ser consultado com o Amazon Athena?",
+        "choices": ["Logs do Amazon Elastic Compute Cloud (Amazon EC2)", "Registros do Amazon CloudWatch Logs", "Registros do grupo EC2 Auto Scaling", "Logs do AWS CloudTrail"],
+        "answer": "Logs do AWS CloudTrail"
     }
-
-
 ]
